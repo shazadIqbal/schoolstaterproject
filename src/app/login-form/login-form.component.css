@@ -1,0 +1,53 @@
+.container-fluid{
+    font-family: 'Roboto', sans-serif; 
+    background-image:url(../../assets/image/bg-yellow.jpg); 
+    background-repeat: no-repeat ;  background-size: 100% 100vh
+}
+
+.form-login{
+    border: none;
+     padding: 40px 30px  ;
+       background-color:  #fff ;
+         
+         -webkit-box-shadow: 4px 3px 44px -7px rgba(0,0,0,0.68);
+-moz-box-shadow: 4px 3px 44px -7px rgba(0,0,0,0.68);
+box-shadow: 4px 3px 44px -7px rgba(0,0,0,0.68);
+}
+
+.form-login h2{
+    color: #636363; margin: 0 0 15px; text-align: center;
+}
+
+.form-control{
+    box-shadow: none;    border-width: 0 0 1px ;  border-radius: 0;
+}
+
+.hint-text {
+    text-align: center; padding-top: 15px; font-size: 13px;
+    
+}
+
+.btn{
+    background: #636464;
+                border-radius: 3px;
+                border: none;
+}
+
+button:hover{
+    background-color: #d69f00
+}
+
+.form-footer {
+    color: #999;
+                border-color: #dee4e7;
+                text-align: center;
+                margin: 0 -25px -25px;
+                font-size: 13px;
+                justify-content: center;
+                
+}
+
+a{
+    color: #d69f00;
+    cursor: pointer;
+}
