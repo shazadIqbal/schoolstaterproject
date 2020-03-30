@@ -18,7 +18,7 @@ export class LoginFormComponent implements OnInit {
   }
 
   signup() {
-    this.route.navigate(["signup"])
+    this.route.navigate(["signup/"+null])
   }
 
   loginCheck(loginData) {

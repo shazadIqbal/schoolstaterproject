@@ -1,6 +1,29 @@
 <app-nav-bar></app-nav-bar>
 
 <div class="container-fluid">
-  <h3>Brand / Logo</h3>
-  <p>The .navbar-brand class is used to highlight the brand/logo/project name of your page.</p>
+  <h3>ALL USERS</h3>
+  <div class="container">
+    <h2>Striped Rows</h2>
+    <p>The .table-striped class adds zebra-stripes to a table:</p>            
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>USERNAME</th>
+          <th>Email</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of users">
+          <td>{{user.id}}</td>
+          <td>{{user.username}}</td>
+          <td>{{user.email}}</td>
+          <td><button class="btn btn-primary" (click)="editUser(user.id)">Edit</button></td>
+        </tr>
+       
+      </tbody>
+    </table>
+  </div>
+  
 </div>

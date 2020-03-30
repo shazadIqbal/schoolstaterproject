@@ -9,7 +9,7 @@ import { AddStudentComponent } from './add-student/add-student.component';
 
 const routes: Routes = [
   { path: '', component: LoginFormComponent },
-  { path: 'signup', component: SignupFormComponent },
+  { path: 'signup/:id', component: SignupFormComponent },
   { path: 'dashboard', component: DashboardMainComponent },
   { path: 'addstudent', component: AddStudentComponent },
 ];
